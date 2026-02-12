@@ -1,5 +1,5 @@
-<footer class="bg-dark text-white text-center p-3">
-    <p>&copy; <?php echo date("Y"); ?> Marcial Transportes</p>
+<footer class="bg-dark text-white text-center p-4 mt-5">
+    © 2026 Marcial Transportes - Funkyboycod-dev Todos los derechos reservados
 </footer>
 
 <!-- Bootstrap JS -->

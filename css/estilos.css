@@ -47,3 +47,35 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.carousel-item {
+    height: 500px; 
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+#carouselExampleCaptions {
+    margin-top: 20px;
+}
+
+.carousel-item {
+    height: 500px; 
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+}

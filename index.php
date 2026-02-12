@@ -11,8 +11,8 @@
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-            <img src="img/slide1.jpg" class="d-block w-100" style="height:250px; object-fit:cover;" alt="">
-            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-4 rounded">
+            <img src="img/img1.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block p-4">
                 <h2 class="fw-bold">Transporte Nacional</h2>
                 <p>Servicio seguro, rápido y con cobertura en todo el país.</p>
                 <a href="contacto.php" class="btn btn-primary">Cotizar Ahora</a>
@@ -20,8 +20,8 @@
         </div>
 
         <div class="carousel-item">
-            <img src="img/slide2.jpg" class="d-block w-100" style="height:250px; object-fit:cover;" alt="">
-            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-4 rounded">
+            <img src="img/img2.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block p-4">
                 <h2 class="fw-bold">Carga Pesada</h2>
                 <p>Especialistas en traslado de maquinaria industrial.</p>
                 <a href="servicios.php" class="btn btn-primary">Ver Servicios</a>
@@ -29,8 +29,8 @@
         </div>
 
         <div class="carousel-item">
-            <img src="img/slide3.jpg" class="d-block w-100" style="height:250px; object-fit:cover;" alt="">
-            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-4 rounded">
+            <img src="img/img3.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block p-4">
                 <h2 class="fw-bold">Logística Empresarial</h2>
                 <p>Optimización de rutas y distribución eficiente.</p>
                 <a href="contacto.php" class="btn btn-primary">Contáctanos</a>
@@ -48,6 +48,7 @@
     </button>
 
 </div>
+
 
 <div class="container my-5 text-center">
     <h1 class="display-5 fw-bold">Soluciones Logísticas Confiables</h1>

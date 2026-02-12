@@ -1,26 +1,41 @@
 <?php include("header.php"); ?>
 
-<section class="hero">
-    <h1>Soluciones Logísticas Confiables</h1>
-    <p>Especialistas en transporte nacional y distribución eficiente.</p>
-</section>
+<div class="container mt-5">
 
-<section>
-    <h2>Nuestros Servicios</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Transporte Nacional</h3>
-            <p>Entregas seguras y puntuales en todo el país.</p>
+    <div class="text-center mb-5">
+        <h1 class="display-4">Soluciones Logísticas Confiables</h1>
+        <p class="lead">Especialistas en transporte nacional y carga pesada</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Transporte Nacional</h5>
+                    <p class="card-text">Cobertura en todo el país con puntualidad garantizada.</p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Carga Pesada</h3>
-            <p>Movilización especializada para mercancía industrial.</p>
+
+        <div class="col-md-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Carga Pesada</h5>
+                    <p class="card-text">Movilización segura para maquinaria e industria.</p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Logística Empresarial</h3>
-            <p>Soluciones integrales adaptadas a tu negocio.</p>
+
+        <div class="col-md-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Logística Empresarial</h5>
+                    <p class="card-text">Optimización de rutas y distribución eficiente.</p>
+                </div>
+            </div>
         </div>
     </div>
-</section>
+
+</div>
 
 <?php include("footer.php"); ?>

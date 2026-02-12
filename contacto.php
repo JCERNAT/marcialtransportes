@@ -1,13 +1,26 @@
 <?php include("header.php"); ?>
 
-<section>
-    <h2>Contáctanos</h2>
+<div class="container mt-5">
+    <h2 class="mb-4">Contáctanos</h2>
+
     <form>
-        <input type="text" placeholder="Nombre">
-        <input type="email" placeholder="Correo">
-        <textarea placeholder="Mensaje"></textarea>
-        <button type="submit">Enviar</button>
+        <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Correo</label>
+            <input type="email" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mensaje</label>
+            <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
-</section>
+</div>
 
 <?php include("footer.php"); ?>

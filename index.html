@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcial Transportes | Transporte Nacional</title>
 
-    <meta name="description" content="Empresa de transporte nacional y logística empresarial. Servicio seguro, rápido y confiable.">
+    <meta name="description"
+        content="Empresa de transporte nacional y logística empresarial. Servicio seguro, rápido y confiable.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
@@ -15,6 +16,18 @@
 <body>
 
     <!-- HEADER -->
+    <div class="top-bar">
+        <div class="container top-bar__container">
+            <div class="top-bar__contact">
+                <a href="#" class="top-bar__link">📞 (01) 555-1234</a>
+                <a href="#" class="top-bar__link">✉️ contacto@empresamarcial.com</a>
+            </div>
+            <div class="top-bar__social">
+                <a href="#" class="top-bar__link">Rastrea tu Envío</a>
+            </div>
+        </div>
+    </div>
+
     <header class="hero">
         <nav class="nav container">
             <div class="nav__logo">
@@ -29,21 +42,39 @@
                     <a href="#" class="nav__links">Servicios</a>
                 </li>
                 <li class="nav__items">
+                    <a href="#" class="nav__links">Agencias</a>
+                </li>
+                <li class="nav__items">
                     <a href="#" class="nav__links">Nosotros</a>
                 </li>
                 <li class="nav__items">
-                    <a href="contacto.html" class="nav__links">Contacto</a>
+                    <a href="contacto.html" class="nav__links nav__links--cta">Contacto</a>
                 </li>
             </ul>
+
+            <div class="nav__menu">
+                <img src="img/menu.svg" class="nav__img">
+            </div>
+            <div class="nav__close">
+                <img src="img/close.svg" class="nav__img">
+            </div>
         </nav>
 
         <section class="hero__container container">
-            <h1 class="hero__title">Transporte Nacional Seguro y Confiable</h1>
-            <p class="hero__paragraph">
-                Brindamos soluciones logísticas eficientes con cobertura en todo el país.
-                Compromiso, puntualidad y seguridad garantizada.
-            </p>
-            <a href="#" class="cta">Cotizar Ahora</a>
+            <div class="hero__content">
+                <h1 class="hero__title">Envíos a todo el Perú</h1>
+                <p class="hero__paragraph">
+                    Seguridad, rapidez y confianza en cada entrega.
+                </p>
+            </div>
+
+            <div class="tracking-box">
+                <h3 class="tracking-box__title">Rastrea tu Envío</h3>
+                <div class="tracking-box__form">
+                    <input type="text" placeholder="Ingrese número de guía / remito" class="tracking-box__input">
+                    <button class="tracking-box__btn">Buscar</button>
+                </div>
+            </div>
         </section>
     </header>
 
@@ -126,6 +157,39 @@
             </div>
         </section>
 
+        <!-- TESTIMONY -->
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="img/arrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi experiencia con Marcial Transportes, <span
+                                class="testimony__course">excelente servicio.</span></h2>
+                        <p class="testimony__review">"La puntualidad y el seguimiento en tiempo real me dan mucha
+                            tranquilidad para mis envíos empresariales."</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="img/img1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Seguridad garantizada, <span class="testimony__course">totalmente
+                                recomendado.</span></h2>
+                        <p class="testimony__review">"Llevo años trabajando con ellos y nunca he tenido problemas con la
+                            carga. Muy profesionales."</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="img/img3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="img/arrow.svg" class="testimony__arrow" id="next" style="transform: rotate(180deg);">
+            </div>
+        </section>
+
         <!-- CONTACTO -->
         <section class="questions container">
             <h2 class="subtitle">¿Necesitas una cotización?</h2>
@@ -142,10 +206,39 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-dark text-white text-center py-3">
-  © 2026 Transportes Marcial - Todos los derechos reservados
-</footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__content">
+                <h2 class="footer__title">Marcial Transportes</h2>
+                <div class="footer__links">
+                    <a href="index.html" class="footer__link"
+                        style="color: white; text-decoration: none; margin-right: 15px;">Inicio</a>
+                    <a href="nosotros.html" class="footer__link"
+                        style="color: white; text-decoration: none; margin-right: 15px;">Nosotros</a>
+                    <a href="servicios.html" class="footer__link"
+                        style="color: white; text-decoration: none; margin-right: 15px;">Servicios</a>
+                    <a href="contacto.html" class="footer__link"
+                        style="color: white; text-decoration: none;">Contacto</a>
+                </div>
+            </div>
+
+            <form class="footer__form">
+                <h3 class="footer__newsletter">Suscríbete a nuestras novedades</h3>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email" class="footer__input">
+                    <button type="submit" class="footer__submit">Suscribirse</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="footer__copy">
+            © 2026 Transportes Marcial - Todos los derechos reservados
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/slider.js"></script>
+    <script src="./JS/questions.js"></script>
+    <script src="./JS/menu.js"></script>
 
 </body>
 

@@ -30,7 +30,7 @@ body {
 .top-bar {
     background-color: var(--color-title);
     color: var(--color-white);
-    padding: 10px 0;
+    padding: 2px 0;
     font-size: 0.9rem;
 }
 
@@ -653,7 +653,7 @@ body {
 @media (max-width: 600px) {
     .top-bar__contact {
         display: none;
-        /* Hide contact on very small screens if crowded */
+      
     }
 
     .top-bar__container {
